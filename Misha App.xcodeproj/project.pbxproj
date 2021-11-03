@@ -14,6 +14,7 @@
 		BC74B888273218FC0053FD5E /* Misha_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74B887273218FC0053FD5E /* Misha_AppTests.swift */; };
 		BC74B892273218FC0053FD5E /* Misha_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74B891273218FC0053FD5E /* Misha_AppUITests.swift */; };
 		BC74B894273218FC0053FD5E /* Misha_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74B893273218FC0053FD5E /* Misha_AppUITestsLaunchTests.swift */; };
+		BC74B8A227322FBB0053FD5E /* cow.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC74B8A127322FBB0053FD5E /* cow.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BC74B88D273218FC0053FD5E /* Misha AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Misha AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC74B891273218FC0053FD5E /* Misha_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Misha_AppUITests.swift; sourceTree = "<group>"; };
 		BC74B893273218FC0053FD5E /* Misha_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Misha_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BC74B8A127322FBB0053FD5E /* cow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cow.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		BC74B875273218F90053FD5E /* Misha App */ = {
 			isa = PBXGroup;
 			children = (
+				BC74B8A027322F790053FD5E /* Sounds */,
 				BC74B876273218F90053FD5E /* Misha_AppApp.swift */,
 				BC74B878273218F90053FD5E /* ContentView.swift */,
 				BC74B87A273218FC0053FD5E /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				BC74B893273218FC0053FD5E /* Misha_AppUITestsLaunchTests.swift */,
 			);
 			path = "Misha AppUITests";
+			sourceTree = "<group>";
+		};
+		BC74B8A027322F790053FD5E /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				BC74B8A127322FBB0053FD5E /* cow.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC74B8A227322FBB0053FD5E /* cow.wav in Resources */,
 				BC74B87E273218FC0053FD5E /* Preview Assets.xcassets in Resources */,
 				BC74B87B273218FC0053FD5E /* Assets.xcassets in Resources */,
 			);
@@ -425,8 +437,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,7 +450,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -454,8 +468,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,7 +481,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

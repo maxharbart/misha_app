@@ -13,5 +13,7 @@ struct Misha_AppApp: App {
         WindowGroup {
             ContentView()
         }
+        
     }
+
 }
