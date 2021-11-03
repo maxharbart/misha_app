@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC74B877273218F90053FD5E /* Misha_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74B876273218F90053FD5E /* Misha_AppApp.swift */; };
+		BC74B879273218F90053FD5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74B878273218F90053FD5E /* ContentView.swift */; };
+		BC74B87B273218FC0053FD5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC74B87A273218FC0053FD5E /* Assets.xcassets */; };
+		BC74B87E273218FC0053FD5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC74B87D273218FC0053FD5E /* Preview Assets.xcassets */; };
+		BC74B888273218FC0053FD5E /* Misha_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74B887273218FC0053FD5E /* Misha_AppTests.swift */; };
+		BC74B892273218FC0053FD5E /* Misha_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74B891273218FC0053FD5E /* Misha_AppUITests.swift */; };
+		BC74B894273218FC0053FD5E /* Misha_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74B893273218FC0053FD5E /* Misha_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC74B884273218FC0053FD5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC74B86B273218F90053FD5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC74B872273218F90053FD5E;
+			remoteInfo = "Misha App";
+		};
+		BC74B88E273218FC0053FD5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC74B86B273218F90053FD5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC74B872273218F90053FD5E;
+			remoteInfo = "Misha App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC74B873273218F90053FD5E /* Misha App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Misha App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC74B876273218F90053FD5E /* Misha_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Misha_AppApp.swift; sourceTree = "<group>"; };
+		BC74B878273218F90053FD5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BC74B87A273218FC0053FD5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC74B87D273218FC0053FD5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC74B883273218FC0053FD5E /* Misha AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Misha AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC74B887273218FC0053FD5E /* Misha_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Misha_AppTests.swift; sourceTree = "<group>"; };
+		BC74B88D273218FC0053FD5E /* Misha AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Misha AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC74B891273218FC0053FD5E /* Misha_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Misha_AppUITests.swift; sourceTree = "<group>"; };
+		BC74B893273218FC0053FD5E /* Misha_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Misha_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC74B870273218F90053FD5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC74B880273218FC0053FD5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC74B88A273218FC0053FD5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC74B86A273218F90053FD5E = {
+			isa = PBXGroup;
+			children = (
+				BC74B875273218F90053FD5E /* Misha App */,
+				BC74B886273218FC0053FD5E /* Misha AppTests */,
+				BC74B890273218FC0053FD5E /* Misha AppUITests */,
+				BC74B874273218F90053FD5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC74B874273218F90053FD5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC74B873273218F90053FD5E /* Misha App.app */,
+				BC74B883273218FC0053FD5E /* Misha AppTests.xctest */,
+				BC74B88D273218FC0053FD5E /* Misha AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC74B875273218F90053FD5E /* Misha App */ = {
+			isa = PBXGroup;
+			children = (
+				BC74B876273218F90053FD5E /* Misha_AppApp.swift */,
+				BC74B878273218F90053FD5E /* ContentView.swift */,
+				BC74B87A273218FC0053FD5E /* Assets.xcassets */,
+				BC74B87C273218FC0053FD5E /* Preview Content */,
+			);
+			path = "Misha App";
+			sourceTree = "<group>";
+		};
+		BC74B87C273218FC0053FD5E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BC74B87D273218FC0053FD5E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC74B886273218FC0053FD5E /* Misha AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC74B887273218FC0053FD5E /* Misha_AppTests.swift */,
+			);
+			path = "Misha AppTests";
+			sourceTree = "<group>";
+		};
+		BC74B890273218FC0053FD5E /* Misha AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC74B891273218FC0053FD5E /* Misha_AppUITests.swift */,
+				BC74B893273218FC0053FD5E /* Misha_AppUITestsLaunchTests.swift */,
+			);
+			path = "Misha AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC74B872273218F90053FD5E /* Misha App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC74B897273218FC0053FD5E /* Build configuration list for PBXNativeTarget "Misha App" */;
+			buildPhases = (
+				BC74B86F273218F90053FD5E /* Sources */,
+				BC74B870273218F90053FD5E /* Frameworks */,
+				BC74B871273218F90053FD5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Misha App";
+			productName = "Misha App";
+			productReference = BC74B873273218F90053FD5E /* Misha App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC74B882273218FC0053FD5E /* Misha AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC74B89A273218FC0053FD5E /* Build configuration list for PBXNativeTarget "Misha AppTests" */;
+			buildPhases = (
+				BC74B87F273218FC0053FD5E /* Sources */,
+				BC74B880273218FC0053FD5E /* Frameworks */,
+				BC74B881273218FC0053FD5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC74B885273218FC0053FD5E /* PBXTargetDependency */,
+			);
+			name = "Misha AppTests";
+			productName = "Misha AppTests";
+			productReference = BC74B883273218FC0053FD5E /* Misha AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC74B88C273218FC0053FD5E /* Misha AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC74B89D273218FC0053FD5E /* Build configuration list for PBXNativeTarget "Misha AppUITests" */;
+			buildPhases = (
+				BC74B889273218FC0053FD5E /* Sources */,
+				BC74B88A273218FC0053FD5E /* Frameworks */,
+				BC74B88B273218FC0053FD5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC74B88F273218FC0053FD5E /* PBXTargetDependency */,
+			);
+			name = "Misha AppUITests";
+			productName = "Misha AppUITests";
+			productReference = BC74B88D273218FC0053FD5E /* Misha AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC74B86B273218F90053FD5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					BC74B872273218F90053FD5E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					BC74B882273218FC0053FD5E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = BC74B872273218F90053FD5E;
+					};
+					BC74B88C273218FC0053FD5E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = BC74B872273218F90053FD5E;
+					};
+				};
+			};
+			buildConfigurationList = BC74B86E273218F90053FD5E /* Build configuration list for PBXProject "Misha App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC74B86A273218F90053FD5E;
+			productRefGroup = BC74B874273218F90053FD5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC74B872273218F90053FD5E /* Misha App */,
+				BC74B882273218FC0053FD5E /* Misha AppTests */,
+				BC74B88C273218FC0053FD5E /* Misha AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC74B871273218F90053FD5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC74B87E273218FC0053FD5E /* Preview Assets.xcassets in Resources */,
+				BC74B87B273218FC0053FD5E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC74B881273218FC0053FD5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC74B88B273218FC0053FD5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC74B86F273218F90053FD5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC74B879273218F90053FD5E /* ContentView.swift in Sources */,
+				BC74B877273218F90053FD5E /* Misha_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC74B87F273218FC0053FD5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC74B888273218FC0053FD5E /* Misha_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC74B889273218FC0053FD5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC74B892273218FC0053FD5E /* Misha_AppUITests.swift in Sources */,
+				BC74B894273218FC0053FD5E /* Misha_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC74B885273218FC0053FD5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC74B872273218F90053FD5E /* Misha App */;
+			targetProxy = BC74B884273218FC0053FD5E /* PBXContainerItemProxy */;
+		};
+		BC74B88F273218FC0053FD5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC74B872273218F90053FD5E /* Misha App */;
+			targetProxy = BC74B88E273218FC0053FD5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BC74B895273218FC0053FD5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC74B896273218FC0053FD5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC74B898273218FC0053FD5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Misha App/Preview Content\"";
+				DEVELOPMENT_TEAM = N3CNBZ3XPP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maxharbart.mishaapp.Misha-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC74B899273218FC0053FD5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Misha App/Preview Content\"";
+				DEVELOPMENT_TEAM = N3CNBZ3XPP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maxharbart.mishaapp.Misha-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC74B89B273218FC0053FD5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N3CNBZ3XPP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maxharbart.mishaapp.Misha-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Misha App.app/Misha App";
+			};
+			name = Debug;
+		};
+		BC74B89C273218FC0053FD5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N3CNBZ3XPP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maxharbart.mishaapp.Misha-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Misha App.app/Misha App";
+			};
+			name = Release;
+		};
+		BC74B89E273218FC0053FD5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N3CNBZ3XPP;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maxharbart.mishaapp.Misha-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Misha App";
+			};
+			name = Debug;
+		};
+		BC74B89F273218FC0053FD5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N3CNBZ3XPP;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maxharbart.mishaapp.Misha-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Misha App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC74B86E273218F90053FD5E /* Build configuration list for PBXProject "Misha App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC74B895273218FC0053FD5E /* Debug */,
+				BC74B896273218FC0053FD5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC74B897273218FC0053FD5E /* Build configuration list for PBXNativeTarget "Misha App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC74B898273218FC0053FD5E /* Debug */,
+				BC74B899273218FC0053FD5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC74B89A273218FC0053FD5E /* Build configuration list for PBXNativeTarget "Misha AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC74B89B273218FC0053FD5E /* Debug */,
+				BC74B89C273218FC0053FD5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC74B89D273218FC0053FD5E /* Build configuration list for PBXNativeTarget "Misha AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC74B89E273218FC0053FD5E /* Debug */,
+				BC74B89F273218FC0053FD5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC74B86B273218F90053FD5E /* Project object */;
+}
