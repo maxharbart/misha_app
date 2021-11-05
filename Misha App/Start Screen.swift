@@ -13,10 +13,24 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 NavigationLink(destination: AnimalsView()) {
-                    Text("go to another animals")
+                    Text("ANIMALS 🐒")
+                        .font(.system(size:30, weight: .light, design: .serif))
+                        .frame(width: 300)
+                        .padding(30)
+                        .border(Color.pink, width: 2)
+                        
+                    
+                        
+                        
+                        
                 }
                 NavigationLink(destination: AlphabetView()){
-                    Text("go to alphabet")
+                    Text("ALPHABET 🆎")
+                        .font(.system(size:30, weight: .light, design: .serif))
+                        .frame(width: 300)
+                        .padding(30)
+                        .border(Color.pink, width: 2)
+                        
                 }
             }
         }

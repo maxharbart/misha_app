@@ -13,23 +13,50 @@ var player: AVAudioPlayer!
 struct AnimalsView: View {
     
     var body: some View {
- 
-        VStack {
-            Button(action: {
-                // play sound
-                self.playSound()
-            }) {
-                
-                Image("cow")
-                    .resizable()
-                    .scaledToFit()
+        ScrollView {
+            VStack {
+                Button(action: {
+                    // play sound
+                    self.playSound(sound: "cow")
+                }) {
+                    
+                    Image("cow")
+                        .resizable()
+                        .scaledToFit()
+                        .cornerRadius(40)
+                        .padding(10)
+                }
+                Text("Корова")
+                Button(action: {
+                    // play sound
+                    self.playSound(sound: "horse")
+                }) {
+                    
+                    Image("horse")
+                        .resizable()
+                        .scaledToFit()
+                        .cornerRadius(40)
+                        .padding(10)
+                }
+                Text("Лошадь")
+                Button(action: {
+                    // play sound
+                    self.playSound(sound: "cat")
+                }) {
+                    
+                    Image("cat")
+                        .resizable()
+                        .scaledToFit()
+                        .cornerRadius(40)
+                        .padding(10)
+                }
+                Text("Кот")
             }
         }
     }
-        
     
-    func playSound() {
-        let url = Bundle.main.url(forResource: "cow", withExtension: "wav")
+    func playSound(sound: String) {
+        let url = Bundle.main.url(forResource: sound, withExtension: "wav")
         
         guard url != nil else {
             return
