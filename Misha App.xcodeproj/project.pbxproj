@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		BC74B877273218F90053FD5E /* Misha_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74B876273218F90053FD5E /* Misha_AppApp.swift */; };
-		BC74B879273218F90053FD5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74B878273218F90053FD5E /* ContentView.swift */; };
+		BC74B879273218F90053FD5E /* AnimalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74B878273218F90053FD5E /* AnimalsView.swift */; };
 		BC74B87B273218FC0053FD5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC74B87A273218FC0053FD5E /* Assets.xcassets */; };
 		BC74B87E273218FC0053FD5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC74B87D273218FC0053FD5E /* Preview Assets.xcassets */; };
 		BC74B888273218FC0053FD5E /* Misha_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74B887273218FC0053FD5E /* Misha_AppTests.swift */; };
 		BC74B892273218FC0053FD5E /* Misha_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74B891273218FC0053FD5E /* Misha_AppUITests.swift */; };
 		BC74B894273218FC0053FD5E /* Misha_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74B893273218FC0053FD5E /* Misha_AppUITestsLaunchTests.swift */; };
 		BC74B8A227322FBB0053FD5E /* cow.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC74B8A127322FBB0053FD5E /* cow.wav */; };
+		BC97B1632734AC9E005F98A9 /* Start Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC97B1622734AC9E005F98A9 /* Start Screen.swift */; };
+		BC97B1652734ACC9005F98A9 /* AlphabetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC97B1642734ACC9005F98A9 /* AlphabetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,7 @@
 /* Begin PBXFileReference section */
 		BC74B873273218F90053FD5E /* Misha App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Misha App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC74B876273218F90053FD5E /* Misha_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Misha_AppApp.swift; sourceTree = "<group>"; };
-		BC74B878273218F90053FD5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BC74B878273218F90053FD5E /* AnimalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsView.swift; sourceTree = "<group>"; };
 		BC74B87A273218FC0053FD5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC74B87D273218FC0053FD5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BC74B883273218FC0053FD5E /* Misha AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Misha AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +48,8 @@
 		BC74B891273218FC0053FD5E /* Misha_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Misha_AppUITests.swift; sourceTree = "<group>"; };
 		BC74B893273218FC0053FD5E /* Misha_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Misha_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BC74B8A127322FBB0053FD5E /* cow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cow.wav; sourceTree = "<group>"; };
+		BC97B1622734AC9E005F98A9 /* Start Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Start Screen.swift"; sourceTree = "<group>"; };
+		BC97B1642734ACC9005F98A9 /* AlphabetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 			children = (
 				BC74B8A027322F790053FD5E /* Sounds */,
 				BC74B876273218F90053FD5E /* Misha_AppApp.swift */,
-				BC74B878273218F90053FD5E /* ContentView.swift */,
+				BC97B1622734AC9E005F98A9 /* Start Screen.swift */,
+				BC74B878273218F90053FD5E /* AnimalsView.swift */,
+				BC97B1642734ACC9005F98A9 /* AlphabetView.swift */,
 				BC74B87A273218FC0053FD5E /* Assets.xcassets */,
 				BC74B87C273218FC0053FD5E /* Preview Content */,
 			);
@@ -269,7 +275,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC74B879273218F90053FD5E /* ContentView.swift in Sources */,
+				BC97B1632734AC9E005F98A9 /* Start Screen.swift in Sources */,
+				BC97B1652734ACC9005F98A9 /* AlphabetView.swift in Sources */,
+				BC74B879273218F90053FD5E /* AnimalsView.swift in Sources */,
 				BC74B877273218F90053FD5E /* Misha_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

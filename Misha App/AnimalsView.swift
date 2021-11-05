@@ -10,7 +10,7 @@ import AVFoundation
 
 var player: AVAudioPlayer!
 
-struct ContentView: View {
+struct AnimalsView: View {
     
     var body: some View {
  
@@ -41,5 +41,11 @@ struct ContentView: View {
         } catch {
             print("\(error)")
         }
+    }
+}
+
+struct AnimalsView_Previews : PreviewProvider {
+    static var previews: some View {
+       AnimalsView()
     }
 }
