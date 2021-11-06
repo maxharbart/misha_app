@@ -17,3 +17,9 @@ struct Misha_AppApp: App {
     }
 
 }
+struct Animal: Decodable, Identifiable, Hashable {
+    let id: Int
+    let name: String
+    let image: String
+    let text: String
+}
