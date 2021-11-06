@@ -23,3 +23,9 @@ struct Animal: Decodable, Identifiable, Hashable {
     let image: String
     let text: String
 }
+
+var animals = [
+    Animal(id: 1, name: "cow", image: "cow", text: "Корова"),
+    Animal(id: 2, name: "horse", image: "horse", text: "Лошадь"),
+    Animal(id: 3, name: "cat", image: "cat", text: "Кот")
+]
