@@ -13,7 +13,7 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 NavigationLink(destination: AnimalsView()) {
-                    Text("ANIMALS 🐒")
+                    Text("🐮🐴🐱")
                         .font(.system(size:30, weight: .light, design: .serif))
                         .frame(width: 300)
                         .padding(30)

@@ -6,10 +6,14 @@
 //
 
 import SwiftUI
+import UIKit
+
+
 
 @main
 struct Misha_AppApp: App {
     var body: some Scene {
+        
         WindowGroup {
             ContentView()
         }
@@ -17,6 +21,9 @@ struct Misha_AppApp: App {
     }
 
 }
+
+
+
 struct Animal: Decodable, Identifiable, Hashable {
     let id: Int
     let name: String
@@ -29,3 +36,4 @@ var animals = [
     Animal(id: 2, name: "horse", image: "horse", text: "Лошадь"),
     Animal(id: 3, name: "cat", image: "cat", text: "Кот")
 ]
+
