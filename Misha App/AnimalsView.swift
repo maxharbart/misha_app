@@ -14,7 +14,7 @@ var player: AVAudioPlayer!
 struct AnimalsView: View {
    init() {
         UIPageControl.appearance().currentPageIndicatorTintColor = .red
-        UIPageControl.appearance().pageIndicatorTintColor = UIColor.systemPink.withAlphaComponent(0.2)
+        UIPageControl.appearance().pageIndicatorTintColor = UIColor.red.withAlphaComponent(0.2)
     }
     
     var body: some View {
