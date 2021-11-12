@@ -19,6 +19,7 @@
 		BC97B1652734ACC9005F98A9 /* AlphabetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC97B1642734ACC9005F98A9 /* AlphabetView.swift */; };
 		BC97B1692734CD60005F98A9 /* horse.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC97B1682734CD60005F98A9 /* horse.wav */; };
 		BC97B16B2734D173005F98A9 /* cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC97B16A2734D173005F98A9 /* cat.wav */; };
+		BCBC9F63273E046000CAB3B3 /* AnimalsQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBC9F62273E045F00CAB3B3 /* AnimalsQuizView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		BC97B1642734ACC9005F98A9 /* AlphabetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetView.swift; sourceTree = "<group>"; };
 		BC97B1682734CD60005F98A9 /* horse.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = horse.wav; sourceTree = "<group>"; };
 		BC97B16A2734D173005F98A9 /* cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cat.wav; sourceTree = "<group>"; };
+		BCBC9F62273E045F00CAB3B3 /* AnimalsQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsQuizView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				BC74B876273218F90053FD5E /* Misha_AppApp.swift */,
 				BC97B1622734AC9E005F98A9 /* Start Screen.swift */,
 				BC74B878273218F90053FD5E /* AnimalsView.swift */,
+				BCBC9F62273E045F00CAB3B3 /* AnimalsQuizView.swift */,
 				BC97B1642734ACC9005F98A9 /* AlphabetView.swift */,
 				BC74B87A273218FC0053FD5E /* Assets.xcassets */,
 				BC74B87C273218FC0053FD5E /* Preview Content */,
@@ -283,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCBC9F63273E046000CAB3B3 /* AnimalsQuizView.swift in Sources */,
 				BC97B1632734AC9E005F98A9 /* Start Screen.swift in Sources */,
 				BC97B1652734ACC9005F98A9 /* AlphabetView.swift in Sources */,
 				BC74B879273218F90053FD5E /* AnimalsView.swift in Sources */,

@@ -24,9 +24,7 @@ struct AnimalsView: View {
                 OneAnimalView()
                 
                 }
-            Button(action: {
-                
-            }) {
+            NavigationLink(destination: AnimalsQuizView()){
                 Text("Проверь себя")
             }
             }
